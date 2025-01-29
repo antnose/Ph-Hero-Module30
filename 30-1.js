@@ -104,4 +104,43 @@
 // const [prothom, ditio] = doubleThem(6, 9);
 // console.log(prothom, ditio);
 
-// 30-7 Complete
+// 30-8 Keys, Values, Entries, Delete, Seal, Freeze
+const glass = {
+  name: "glass",
+  color: "Golden",
+  price: 12,
+  isCleaned: true,
+};
+
+// console.log(glass);
+// const keys = Object.keys(glass);
+// console.log(keys);
+
+// const values = Object.values(glass);
+// console.log(values);
+
+// the entries is give me array of array or it called two dimensional array.
+// const pair = Object.entries(glass);
+// console.log(pair);
+
+// delete glass.isCleaned;
+// console.log(glass);
+
+// const { isCleaned, ...shortGlass } = glass;
+// console.log(shortGlass);
+
+// freeze
+
+// Object.freeze(glass);
+// glass.source = "Bangladesh";
+// glass.price = 5000;
+// delete glass.name;
+// console.log(glass);
+
+// Object seal
+
+// Object.seal(glass);
+// glass.source = "Bangladesh";
+// glass.price = 5000;
+// delete glass.name;
+// console.log(glass);
