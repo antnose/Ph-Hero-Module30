@@ -65,3 +65,43 @@
 // console.log(max);
 
 // 30-7 (Advanced) Object And Array Destructure
+
+// const actor = {
+//   name: "Ananta",
+//   age: 30,
+//   phone: "019393939",
+//   money: 122339339,
+// };
+
+// if right side is an object left side of destructing will be object as well
+// const { phone } = actor;
+
+// Use property name as a variable that contains the property value
+// const { age: boyosh, money } = actor;
+
+// const phone = actor.phone;
+// const name = actor.name;
+// const age = actor.age;
+
+// console.log(phone);
+// console.log(boyosh);
+// console.log(money);
+
+// array destructing
+// const numbers = [47, 90];
+// const [first, second] = numbers;
+// const [x, y] = [12, 55];
+// console.log(first, second);
+// console.log(x, y);
+
+// Advanced
+// function doubleThem(a, b) {
+//   return [a * 2, b * 2];
+// }
+// console.log(doubleThem(44, 56));
+// console.log(...doubleThem(12, 33));
+
+// const [prothom, ditio] = doubleThem(6, 9);
+// console.log(prothom, ditio);
+
+// 30-7 Complete
