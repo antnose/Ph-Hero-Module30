@@ -105,12 +105,12 @@
 // console.log(prothom, ditio);
 
 // 30-8 Keys, Values, Entries, Delete, Seal, Freeze
-const glass = {
-  name: "glass",
-  color: "Golden",
-  price: 12,
-  isCleaned: true,
-};
+// const glass = {
+//   name: "glass",
+//   color: "Golden",
+//   price: 12,
+//   isCleaned: true,
+// };
 
 // console.log(glass);
 // const keys = Object.keys(glass);
@@ -144,3 +144,57 @@ const glass = {
 // glass.price = 5000;
 // delete glass.name;
 // console.log(glass);
+
+// 30-9 For Of, For In, Module Summary And Practice Problems
+
+const numbers = [1, 3, 4, 5, 6, 7, 8, 90];
+// for (let i = 0; i < numbers.length; i++) {
+//   console.log(numbers[i]);
+// }
+
+// for (const num of numbers) {
+// console.log(num);
+// }
+
+// const nobab = "Shiraj Ud Doula";
+// for (const char of nobab) {
+// console.log(char);
+// }
+
+// const glass = {
+//   name: "glass",
+//   color: "Golden",
+//   price: 12,
+//   isCleaned: true,
+// };
+
+// for (const key of glass) {
+//   console.log(key);
+// }
+
+// for (const key in glass) {
+//   const value = glass[key];
+//   console.log(key, value);
+// }
+
+// Optional
+// const keyss = Object.keys(glass);
+// console.log(keyss);
+
+// for (const key of keyss) {
+//   const value = glass[key];
+//   console.log(key, value);
+// }
+
+// ------------> Summary is <------------ \\
+// for of use on array or string not in object
+// for in use on object
+
+// Common ES6 Interview Questions
+/**
+ * Ques 1. What is ES6? Have you ever used anything from es6?
+ * Answer 1. ES6 stands for ECMAScript 6, which is the sixth version of the ECMAScript language specification standard. It's also known as ECMAScript 2015.
+ *
+ * Ques 2. Explain the difference between var, let and const.
+ * Answer 2. In JS, 'var' , 'let' and 'const' are all keywords used to declare variables, but they differ primarily in their scope and mutability: 'var' is function-scoped and can be re-declared and 'const' is also block-scoped but cannot be reassigned once initialized, essentially making it a constant value
+ */
